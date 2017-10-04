@@ -10,3 +10,6 @@ public:
     next = prev = 0;
   }
   Node(const T& el, Node *n = 0, Node *p = 0) {
+    info = el; next = n; prev = p;
+  }
+  
